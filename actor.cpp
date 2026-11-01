@@ -28,7 +28,7 @@ actor::actor(){
     hp = 1;
     pos = {0,0};
     vel = {0,0};
-    path = "Assets/enemies.png";
+    path = "";
 }
 
 actor::actor( Vector2 POS , Vector2 VEL ,int ROTATION,int HP , std::string TEXTURE_PATH){
